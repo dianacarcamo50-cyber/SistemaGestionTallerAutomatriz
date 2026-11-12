@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0"><Group type="103" groupAlignment="0" attributes="0">
+      <Group type="102" attributes="0"><Group type="103" groupAlignment="0" attributes="0">
+        <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+        <Component id="nombre" min="-2" max="-2" attributes="0"/>
+        <Component id="cantidad" min="-2" max="-2" attributes="0"/>
+        <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+        <Component id="minimoLabel" min="-2" max="-2" attributes="0"/>
+        <Component id="entradaLabel" min="-2" max="-2" attributes="0"/>
+      </Group><EmptySpace type="separate" max="-2" attributes="0"/><Group type="103" groupAlignment="0" attributes="0">
+        <Component id="codigoT" pref="150" max="32767" attributes="0"/>
+        <Component id="nombreT" pref="150" max="32767" attributes="0"/>
+        <Component id="cantidadT" pref="150" max="32767" attributes="0"/>
+        <Component id="precioT" pref="150" max="32767" attributes="0"/>
+        <Component id="minimoT" pref="150" max="32767" attributes="0"/>
+        <Component id="entradaT" pref="150" max="32767" attributes="0"/>
+      </Group></Group>
+      <Group type="102" attributes="0">
+        <Component id="guardar" min="-2" max="-2" attributes="0"/><EmptySpace type="unrelated" max="-2" attributes="0"/>
+        <Component id="consultar" min="-2" max="-2" attributes="0"/><EmptySpace type="unrelated" max="-2" attributes="0"/>
+        <Component id="entrada" min="-2" max="-2" attributes="0"/><EmptySpace type="unrelated" max="-2" attributes="0"/>
+      </Group>
+      <Group type="102" attributes="0">
+        <Component id="alertas" min="-2" max="-2" attributes="0"/><EmptySpace type="unrelated" max="-2" attributes="0"/>
+        <Component id="limpiar" min="-2" max="-2" attributes="0"/><EmptySpace type="unrelated" max="-2" attributes="0"/>
+      </Group>
+    </Group></DimensionLayout>
+    <DimensionLayout dim="1"><Group type="103" groupAlignment="0" attributes="0"><Group type="102" attributes="0">
+      <Group type="103" groupAlignment="3" attributes="0"><Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/><Component id="codigoT" alignment="3" min="-2" max="-2" attributes="0"/></Group><EmptySpace type="unrelated" max="-2" attributes="0"/>
+      <Group type="103" groupAlignment="3" attributes="0"><Component id="nombre" alignment="3" min="-2" max="-2" attributes="0"/><Component id="nombreT" alignment="3" min="-2" max="-2" attributes="0"/></Group><EmptySpace type="unrelated" max="-2" attributes="0"/>
+      <Group type="103" groupAlignment="3" attributes="0"><Component id="cantidad" alignment="3" min="-2" max="-2" attributes="0"/><Component id="cantidadT" alignment="3" min="-2" max="-2" attributes="0"/></Group><EmptySpace type="unrelated" max="-2" attributes="0"/>
+      <Group type="103" groupAlignment="3" attributes="0"><Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/><Component id="precioT" alignment="3" min="-2" max="-2" attributes="0"/></Group><EmptySpace type="unrelated" max="-2" attributes="0"/>
+      <Group type="103" groupAlignment="3" attributes="0"><Component id="minimoLabel" alignment="3" min="-2" max="-2" attributes="0"/><Component id="minimoT" alignment="3" min="-2" max="-2" attributes="0"/></Group><EmptySpace type="unrelated" max="-2" attributes="0"/>
+      <Group type="103" groupAlignment="3" attributes="0"><Component id="entradaLabel" alignment="3" min="-2" max="-2" attributes="0"/><Component id="entradaT" alignment="3" min="-2" max="-2" attributes="0"/></Group><EmptySpace type="unrelated" max="-2" attributes="0"/>
+      <Group type="103" groupAlignment="3" attributes="0">
+        <Component id="guardar" alignment="3" min="-2" max="-2" attributes="0"/>
+        <Component id="consultar" alignment="3" min="-2" max="-2" attributes="0"/>
+        <Component id="entrada" alignment="3" min="-2" max="-2" attributes="0"/>
+      </Group><EmptySpace type="unrelated" max="-2" attributes="0"/>
+      <Group type="103" groupAlignment="3" attributes="0">
+        <Component id="alertas" alignment="3" min="-2" max="-2" attributes="0"/>
+        <Component id="limpiar" alignment="3" min="-2" max="-2" attributes="0"/>
+      </Group><EmptySpace type="unrelated" max="-2" attributes="0"/>
+    </Group></Group></DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codigo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="codigoT">
+    </Component>
+    <Component class="javax.swing.JLabel" name="nombre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nombreT">
+    </Component>
+    <Component class="javax.swing.JLabel" name="cantidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cantidad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Precio Unitario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cantidadT">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cantidadTActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="precioT">
+    </Component>
+    <Component class="javax.swing.JLabel" name="minimoLabel"><Properties><Property name="text" type="java.lang.String" value="Stock mínimo"/></Properties></Component>
+    <Component class="javax.swing.JTextField" name="minimoT"/>
+    <Component class="javax.swing.JLabel" name="entradaLabel"><Properties><Property name="text" type="java.lang.String" value="Entrada"/></Properties></Component>
+    <Component class="javax.swing.JTextField" name="entradaT"/>
+    <Component class="javax.swing.JButton" name="guardar"><Properties><Property name="text" type="java.lang.String" value="Guardar"/></Properties></Component>
+    <Component class="javax.swing.JButton" name="consultar"><Properties><Property name="text" type="java.lang.String" value="Consultar"/></Properties></Component>
+    <Component class="javax.swing.JButton" name="entrada"><Properties><Property name="text" type="java.lang.String" value="Registrar entrada"/></Properties></Component>
+    <Component class="javax.swing.JButton" name="alertas"><Properties><Property name="text" type="java.lang.String" value="Ver alertas"/></Properties></Component>
+    <Component class="javax.swing.JButton" name="limpiar"><Properties><Property name="text" type="java.lang.String" value="Limpiar"/></Properties></Component>
+  </SubComponents>
+</Form>
